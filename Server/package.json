@@ -1,0 +1,20 @@
+{
+  "name": "MyFirstNodePackagJsonfile",
+  "version": "1.0.0",
+  "description": "First Project with node and learning so much",
+  "main": "Server.js",
+  "dependencies": {
+    "express": "^4.12.4",
+    "mongoose": "^4.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Anup"
+  ],
+  "author": "Anup Saw",
+  "license": "ISC"
+}
