@@ -1,0 +1,33 @@
+<div id="RegisterView" name="RegisterView" class="container">
+    <h3>
+        Register</h3>
+	<div class="row col-md-8 col-xs-12 col-md-off-4" >
+
+			<div class=" form-group col-md-12 col-xs-12">
+				<div class="col-md-10 ">
+					<input type="text" class="form-control" placeholder="First Name" id="FirstName" name="FirstName"
+						ng-model="ModelData.FirstName"  required />
+				</div>
+			</div>
+
+			<div class="form-group col-md-12 col-xs-12">
+				<div class="col-md-10 " >
+					<input type="text" class="form-control" placeholder="Last Name" id="LastName" name="LastName"
+						ng-model="ModelData.LastName"  required />
+				</div>
+			</div>
+			   
+			<div class="form-group col-md-12 col-xs-12">
+				<div class="col-md-10 ">
+					<input type="email" class="form-control" placeholder="Email Id" id="EmailId" name="EmailId"
+						ng-model="ModelData.EmailId"  required />
+				</div>
+			</div>
+			
+			 <div class="form-group col-md-8 col-xs-12 col-md-off-4">
+                    <button type="button" id="Update" class="btn btn-success col-md-off-4" ng-click="UpdateInterest();">
+                                    Register</button>
+			</div>
+	</div>
+
+</div>
